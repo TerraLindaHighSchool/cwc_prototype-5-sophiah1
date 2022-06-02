@@ -11,7 +11,6 @@ public class Target : MonoBehaviour
     private float maxTorque = 10;
     private float xRange = 4;
     private float ySpawnPos = -2;
-
     public int pointValue;
     public ParticleSystem explosionParticle;
 
@@ -58,6 +57,11 @@ public class Target : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+        if(!gameObject.CompareTag("Bad"))
+        {
+            gameManager.GameOver();
+        }
+       
     }
 
 }

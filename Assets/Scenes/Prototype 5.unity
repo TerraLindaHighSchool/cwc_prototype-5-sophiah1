@@ -381,7 +381,7 @@ MonoBehaviour:
   - {fileID: 3327626328549051358, guid: 457b1a60fe3c92942a2e5c745d7b6fb6, type: 3}
   - {fileID: 4272882395095502625, guid: 7741a3c4a5a71fc49aa55c78570b93eb, type: 3}
   scoreText: {fileID: 2049138628}
-  gameOverText: {fileID: 0}
+  gameOverText: {fileID: 183471308}
 --- !u!4 &200117552
 Transform:
   m_ObjectHideFlags: 0
